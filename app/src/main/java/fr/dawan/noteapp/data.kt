@@ -12,3 +12,37 @@ val names = listOf(
     "Nadia", "Nina", "Noah", "Oumar", "Paul",
     "Rayan", "Sabrina", "Sarah", "Thomas", "Yacine"
 )
+
+
+val descriptions = listOf(
+    "La programmation est devenue une compétence essentielle dans le monde moderne. Elle permet non seulement de créer des logiciels et des applications, mais aussi de résoudre de nombreux problèmes du quotidien grâce à l’automatisation.",
+    "Voyager permet de découvrir de nouvelles cultures et de nouveaux modes de vie. Chaque destination possède son histoire, ses traditions, et surtout des habitants prêts à partager leur vision du monde.",
+    "Lire régulièrement est une excellente manière d’enrichir son vocabulaire et de développer son imagination. Les livres nous transportent dans d’autres univers et nous font vivre des aventures extraordinaires.",
+    "Le sport joue un rôle important dans l’équilibre de la vie quotidienne. Il permet d’entretenir son corps, de réduire le stress et d’améliorer la concentration ainsi que la discipline personnelle.",
+    "La nature est un trésor dont nous devons prendre soin. Les forêts, les océans et les montagnes abritent une biodiversité incroyable qu’il est indispensable de préserver pour les générations futures.",
+    "L’amitié est l’un des plus beaux liens qui existent. Elle repose sur la confiance mutuelle, le respect et la sincérité, et permet de surmonter les difficultés de la vie.",
+    "L’éducation est la clé du développement personnel et professionnel. Apprendre constamment ouvre l’esprit et permet de s’adapter aux changements du monde moderne.",
+    "La musique est un langage universel qui traverse les frontières. Elle inspire, apaise, motive, et permet d’exprimer des émotions profondes sans avoir besoin de mots.",
+    "La patience est une qualité rare mais essentielle. Elle permet d’affronter les situations difficiles sans perdre son calme et d’avancer sereinement vers ses objectifs.",
+    "Le travail d’équipe est indispensable pour mener à bien des projets complexes. Chaque personne apporte ses compétences et son expérience pour construire un résultat commun.",
+    "La créativité est la capacité de voir les choses différemment et de proposer des solutions originales. Elle est au cœur de l’innovation et du progrès.",
+    "La famille représente un soutien précieux. Elle nous accompagne dans les bons comme dans les mauvais moments et nous rappelle nos origines et nos valeurs.",
+    "La confiance en soi se construit au fil du temps grâce aux expériences vécues. Elle permet d’oser et de relever de nouveaux défis sans craindre l’échec.",
+    "Le respect des autres est fondamental pour vivre en société. Il implique la tolérance, l’écoute et la compréhension des différences.",
+    "La réussite ne se mesure pas uniquement en richesses matérielles. Elle se trouve aussi dans la paix intérieure, l’équilibre et la satisfaction personnelle.",
+    "La motivation est une force intérieure qui pousse à agir. Elle est essentielle pour atteindre ses objectifs, même lorsque le chemin est difficile.",
+    "Le temps est une ressource précieuse qu'il ne faut pas gaspiller. Apprendre à le gérer permet de devenir plus efficace et de profiter pleinement de chaque instant.",
+    "La santé est un bien précieux souvent sous-estimé. Adopter une bonne hygiène de vie permet de rester en forme physiquement et mentalement.",
+    "La curiosité est un moteur puissant d’apprentissage. Elle incite à poser des questions, à explorer et à découvrir de nouveaux horizons.",
+    "L’honnêteté est une valeur essentielle pour bâtir des relations solides. Elle inspire la confiance et permet d’éviter les conflits inutiles.",
+    "Apprendre de ses erreurs est l’une des meilleures manières de progresser. Chaque échec enseigne une leçon qui permet de grandir.",
+    "La liberté est un droit fondamental qui permet à chacun de penser et d’agir selon ses convictions tant que cela respecte les autres.",
+    "L’humilité est une qualité admirable. Elle consiste à reconnaître ses limites et à rester ouvert à l’apprentissage.",
+    "Le courage n’est pas l’absence de peur mais la capacité de l’affronter. Il permet de surmonter les obstacles avec détermination.",
+    "Communiquer efficacement est indispensable dans tous les domaines de la vie. Cela demande de l’écoute et la capacité de s’exprimer clairement.",
+    "La solidarité favorise l’entraide et renforce les liens au sein d’une communauté. Ensemble, il est possible de résoudre des problèmes complexes.",
+    "La persévérance est essentielle pour ne pas abandonner face aux difficultés. Elle est souvent la clé de la réussite sur le long terme.",
+    "Le bonheur se trouve souvent dans les petites choses du quotidien. Il suffit parfois d’un sourire, d’un geste ou d’un moment simple pour être heureux.",
+    "La science et la technologie ont transformé notre monde. Elles ont permis des avancées incroyables dans des domaines comme la médecine, l’énergie ou la communication.",
+    "Le respect de l’environnement est un enjeu majeur de notre époque. Chacun peut contribuer à protéger la planète par des gestes simples au quotidien."
+)

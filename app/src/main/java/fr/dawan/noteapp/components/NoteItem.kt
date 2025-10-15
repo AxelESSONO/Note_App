@@ -14,7 +14,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import fr.dawan.noteapp.ui.theme.CardBg
@@ -25,7 +27,7 @@ fun NoteItem(name: String) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .heightIn(min = 80.dp, max = 150.dp),
+            .heightIn(min = 80.dp),
         colors = CardDefaults.cardColors(containerColor = CardBg),
         elevation = CardDefaults.cardElevation(defaultElevation = 10.dp)
     ) {
@@ -38,8 +40,11 @@ fun NoteItem(name: String) {
             Text(
                 text = name,
                 color = TextColor,
-                fontSize = 20.sp,
-                fontWeight = FontWeight.Bold,
+                fontSize = 15.sp,
+                fontWeight = FontWeight.Normal,
+                modifier = Modifier.padding(10.dp),
+                fontStyle = FontStyle.Normal,
+                overflow = TextOverflow.MiddleEllipsis
             )
         }
     }
