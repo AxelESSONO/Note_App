@@ -1,8 +1,9 @@
 package fr.dawan.noteapp.model
 
 import kotlinx.coroutines.flow.Flow
+import javax.inject.Inject
 
-class NoteRepository(
+class NoteRepository @Inject constructor (
     private val noteDao: NoteDao
 ) {
 

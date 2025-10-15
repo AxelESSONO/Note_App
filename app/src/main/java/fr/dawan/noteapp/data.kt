@@ -46,3 +46,37 @@ val descriptions = listOf(
     "La science et la technologie ont transformé notre monde. Elles ont permis des avancées incroyables dans des domaines comme la médecine, l’énergie ou la communication.",
     "Le respect de l’environnement est un enjeu majeur de notre époque. Chacun peut contribuer à protéger la planète par des gestes simples au quotidien."
 )
+
+val titles = listOf(
+    "La programmation",
+    "Voyager permet",
+    "Lire régulièrement",
+    "Le sport",
+    "La nature",
+    "L’amitié est",
+    "L’éducation est",
+    "La musique",
+    "La patience",
+    "Le travail",
+    "La créativité",
+    "La famille",
+    "La confiance",
+    "Le respect",
+    "La réussite",
+    "La motivation",
+    "Le temps",
+    "La santé",
+    "La curiosité",
+    "L’honnêteté est",
+    "Apprendre de",
+    "La liberté",
+    "L’humilité est",
+    "Le courage",
+    "Communiquer efficacement",
+    "La solidarité",
+    "La persévérance",
+    "Le bonheur",
+    "La science",
+    "Le respect"
+)
+
