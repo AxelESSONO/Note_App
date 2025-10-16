@@ -15,14 +15,19 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import fr.dawan.noteapp.R
 import fr.dawan.noteapp.ui.theme.CardBg
 import fr.dawan.noteapp.ui.theme.SeparatorColor
 import fr.dawan.noteapp.ui.theme.TextColor
+import fr.dawan.noteapp.viewmodel.NoteViewModel
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)
-fun NoteTopAppBar(email: String?) {
+fun NoteTopAppBar(
+    email: String?,
+    noteViewModel: NoteViewModel = hiltViewModel()
+) {
     TopAppBar(
         modifier = Modifier.drawBehind {
             val strokeWidth = 2.dp.toPx()
@@ -50,7 +55,9 @@ fun NoteTopAppBar(email: String?) {
                 )
             }
 
-            IconButton(onClick = { }) {
+            IconButton(onClick = {
+                noteViewModel.deleteAllNotes()
+            }) {
                 Icon(
                     painter = painterResource(id = R.drawable.delete),
                     contentDescription = "Logout",

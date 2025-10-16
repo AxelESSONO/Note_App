@@ -29,14 +29,6 @@ fun HomeScreen(
     noteViewModel.getAllNotes()
     val notes : List<Note> = noteViewModel.notes.collectAsState().value
 
-    for (index in descriptions.indices){
-        val note = Note(
-            title = titles[index],
-            content = descriptions[index]
-        )
-        noteViewModel.insertNote(note)
-    }
-
     LazyVerticalStaggeredGrid(
         columns = StaggeredGridCells.Fixed(2),
         modifier = Modifier.fillMaxSize().background(Background),
